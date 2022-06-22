@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+<!-- Indica que se hereda de otro archivo -->
+
+
+<!-- el contenido de los bloques se inserta en el 
+  archivo heredado para formar la pagina -->
+{% block content %}
+<div class="centered">
+  <div class="card">
+    <div class="card-content">
+      <h5 class="card-title">{{card.nombre}}</h5>
+      <div class="card-image">
+        <img class="responsive" src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2020/05/Charizard-Base-SEt-art-pkmn.jpg" alt="">
+      </div>
+      <div class="card-body">
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <div class="card-footer">
+        Resistencia
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

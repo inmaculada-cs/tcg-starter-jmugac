@@ -1,0 +1,20 @@
+<!-- Este archivo es la base de la que heredan las demas paginas -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}FastAPI{% endblock title %}</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+</head>
+
+<body>
+  <!-- Los bloques marcan espacios donde se inserta contenido -->
+  {% block content %}
+  {% endblock content %}
+</body>
+
+</html>

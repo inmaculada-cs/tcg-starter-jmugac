@@ -1,0 +1,16 @@
+html, body {
+    min-height: 100vh;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    width: 24rem;
+    /* Agregar cosas */
+}
+
+.responsive {
+    /* Para que la imagen no se escape de su padre */
+    max-width: 100%;
+    height: auto;
+}
